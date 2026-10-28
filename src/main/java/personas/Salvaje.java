@@ -1,4 +1,4 @@
-package Personas;
+package personas;
 
 import monitores.OllaComunitaria;
 
@@ -14,7 +14,7 @@ public class Salvaje implements Runnable {
     private void comer() throws InterruptedException {
         // Metodo fuera del monitor para que coma lo que se sirvio sin bloquear el monitor
         System.out.println("Salvaje " + id + " comiendo en su lugar.");
-        Thread.sleep(1000);     // para simular que tarda en comer
+        Thread.sleep(3000);     // para simular que tarda en comer
     }
 
     @Override

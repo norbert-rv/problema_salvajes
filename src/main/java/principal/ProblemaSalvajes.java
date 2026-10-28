@@ -1,8 +1,8 @@
-package Principal;
+package principal;
 
 import monitores.OllaComunitaria;
-import Personas.Cocinero;
-import Personas.Salvaje;
+import personas.Cocinero;
+import personas.Salvaje;
 
 
 public class ProblemaSalvajes {
